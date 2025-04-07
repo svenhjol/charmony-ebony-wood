@@ -1,0 +1,35 @@
+{
+  "parent": "charmony:root",
+  "display": {
+    "icon": {
+      "id": "charmony-azalea-wood:azalea_planks"
+    },
+    "title": {
+      "translate": "advancements.charmony-azalea-wood.obtained_azalea_log.title"
+    },
+    "description": {
+      "translate": "advancements.charmony-azalea-wood.obtained_azalea_log.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_azalea_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["charmony-azalea-wood:azalea_log"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtained_azalea_log"
+    ]
+  ]
+}

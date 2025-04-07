@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": "charmony-ebony-wood:ebony_planks",
+    "X": "minecraft:stick"
+  },
+  "result": {
+    "count": 3,
+    "id": "charmony-ebony-wood:ebony_sign"
+  }
+}

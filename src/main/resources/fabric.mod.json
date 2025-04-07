@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-ebony-wood",
+  "version": "${mod_version}",
+
+  "name": "Charmony Ebony Wood",
+  "description": "Ebony is a dark wood obtainable from saplings found by sniffers.",
+
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-ebony-wood/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "charmony-ebony-wood.accesswidener",
+  "entrypoints": {
+    "main": [
+        "svenhjol.charmony.ebony_wood.common.CommonInitializer"
+    ],
+    "client": [
+        "svenhjol.charmony.ebony_wood.client.ClientInitializer"
+    ],
+    "modmenu": [
+        "svenhjol.charmony.ebony_wood.integration.ModMenuPlugin"
+    ]
+  },
+
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=${java_version}",
+    "fabric-api": "*",
+    "charmony": ">=${charmony_version}",
+    "charmony-api": ">=${api_version}"
+  },
+
+  "contact": {
+    "homepage": "${homepage_link}",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "${discord_link}"
+      },
+      "update_checker": true
+    }
+  }
+}

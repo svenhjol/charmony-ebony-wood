@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "top": "charmony-azalea-wood:block/azalea_door_top",
+    "bottom": "charmony-azalea-wood:block/azalea_door_bottom"
+  }
+}

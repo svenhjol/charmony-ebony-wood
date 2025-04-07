@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "charmony-ebony-wood:stripped_ebony_log",
+    "X": "minecraft:chain"
+  },
+  "pattern": [
+    "X X",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "charmony-ebony-wood:ebony_hanging_sign"
+  }
+}

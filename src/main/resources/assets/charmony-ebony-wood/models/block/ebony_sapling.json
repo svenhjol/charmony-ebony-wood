@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "charmony-ebony-wood:block/ebony_sapling"
+  }
+}

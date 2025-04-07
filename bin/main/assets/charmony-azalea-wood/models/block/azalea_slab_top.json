@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "charmony-azalea-wood:block/azalea_planks",
+    "top": "charmony-azalea-wood:block/azalea_planks",
+    "side": "charmony-azalea-wood:block/azalea_planks"
+  }
+}

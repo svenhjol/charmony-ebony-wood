@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "charmony-ebony-wood:ebony_planks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "charmony-ebony-wood:ebony_button"
+  }
+}

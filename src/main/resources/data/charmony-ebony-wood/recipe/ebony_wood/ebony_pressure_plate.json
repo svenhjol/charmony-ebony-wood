@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": "charmony-ebony-wood:ebony_planks"
+  },
+  "result": {
+    "id": "charmony-ebony-wood:ebony_pressure_plate"
+  }
+}

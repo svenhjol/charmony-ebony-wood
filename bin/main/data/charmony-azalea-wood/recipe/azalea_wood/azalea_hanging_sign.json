@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "charmony-azalea-wood:stripped_azalea_log",
+    "X": "minecraft:chain"
+  },
+  "pattern": [
+    "X X",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "charmony-azalea-wood:azalea_hanging_sign"
+  }
+}
