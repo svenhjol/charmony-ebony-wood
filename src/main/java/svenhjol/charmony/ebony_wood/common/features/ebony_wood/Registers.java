@@ -24,7 +24,7 @@ import svenhjol.charmony.ebony_wood.EbonyWoodMod;
 
 import java.util.function.Supplier;
 
-public final class Registers extends Setup<EbonyWood> {
+public class Registers extends Setup<EbonyWood> {
     public final Supplier<BlockSetType> blockSetType;
     public final Supplier<WoodType> woodType;
     public final Supplier<WoodMaterial> material;
