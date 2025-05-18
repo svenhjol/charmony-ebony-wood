@@ -1,7 +1,7 @@
 package svenhjol.charmony.ebony_wood.client;
 
 import net.fabricmc.api.ClientModInitializer;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 import svenhjol.charmony.ebony_wood.EbonyWoodMod;
 import svenhjol.charmony.ebony_wood.client.features.ebony_wood.EbonyWood;
 

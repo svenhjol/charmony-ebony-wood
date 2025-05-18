@@ -1,13 +1,14 @@
 package svenhjol.charmony.ebony_wood.common.features.ebony_wood;
 
-import svenhjol.charmony.core.annotations.Configurable;
-import svenhjol.charmony.core.annotations.FeatureDefinition;
+import svenhjol.charmony.api.core.Configurable;
+import svenhjol.charmony.api.core.FeatureDefinition;
 import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 @FeatureDefinition(side = Side.Common, description = """
     Ebony is a dark wood obtainable from saplings found by sniffers.""")
+@SuppressWarnings({"FieldMayBeFinal", "FieldCanBeLocal"})
 public final class EbonyWood extends SidedFeature {
     public final Registers registers;
 
