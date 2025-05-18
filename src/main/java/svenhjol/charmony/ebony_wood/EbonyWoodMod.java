@@ -1,10 +1,9 @@
 package svenhjol.charmony.ebony_wood;
 
 import net.minecraft.resources.ResourceLocation;
-import svenhjol.charmony.api.core.Configurable;
 import svenhjol.charmony.api.core.ModDefinition;
-import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.api.core.Side;
+import svenhjol.charmony.core.base.Mod;
 
 @ModDefinition(
     id = EbonyWoodMod.ID,
