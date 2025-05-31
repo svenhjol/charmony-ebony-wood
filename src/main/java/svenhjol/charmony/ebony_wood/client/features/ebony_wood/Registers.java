@@ -1,6 +1,6 @@
 package svenhjol.charmony.ebony_wood.client.features.ebony_wood;
 
-import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import svenhjol.charmony.core.base.Setup;
 import svenhjol.charmony.core.client.ClientRegistry;
 import svenhjol.charmony.core.helpers.ColorHelper;
@@ -20,9 +20,9 @@ public class Registers extends Setup<EbonyWood> {
         var trapdoor = commonRegisters.trapdoor;
 
         // Cut out transparent areas.
-        clientRegistry.blockRenderType(door.block, RenderType::cutout);
-        clientRegistry.blockRenderType(sapling.block, RenderType::cutout);
-        clientRegistry.blockRenderType(trapdoor.block, RenderType::cutout);
+        clientRegistry.blockRenderType(door.block.get(), ChunkSectionLayer.CUTOUT);
+        clientRegistry.blockRenderType(sapling.block.get(), ChunkSectionLayer.CUTOUT);
+        clientRegistry.blockRenderType(trapdoor.block.get(), ChunkSectionLayer.CUTOUT);
 
         clientRegistry.blockColor(ColorHelper::leavesColorFromBiome, List.of(leaves.block.get()));
     }

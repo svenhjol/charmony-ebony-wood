@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "charmony:block/ebony_slab"
+    },
+    "type=double": {
+      "model": "charmony:block/ebony_planks"
+    },
+    "type=top": {
+      "model": "charmony:block/ebony_slab_top"
+    }
+  }
+}

@@ -10,7 +10,7 @@
     "svenhjol",
     "Coranthes"
   ],
-  "icon": "assets/charmony-ebony-wood/textures/gui/sprites/icon.png",
+  "icon": "assets/charmony/textures/gui/sprites/charmony-ebony-wood.png",
   "license": "MIT",
   "environment": "*",
   "accessWidener": "charmony-ebony-wood.accesswidener",

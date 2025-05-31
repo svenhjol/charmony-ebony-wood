@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "charmony-ebony-wood:ebony_button",
-    "charmony-ebony-wood:ebony_door",
-    "charmony-ebony-wood:ebony_fence",
-    "charmony-ebony-wood:ebony_fence_gate",
-    "charmony-ebony-wood:ebony_log",
-    "charmony-ebony-wood:ebony_planks",
-    "charmony-ebony-wood:ebony_pressure_plate",
-    "charmony-ebony-wood:ebony_sign",
-    "charmony-ebony-wood:ebony_slab",
-    "charmony-ebony-wood:ebony_stairs",
-    "charmony-ebony-wood:ebony_trapdoor",
-    "charmony-ebony-wood:ebony_wood",
-    "charmony-ebony-wood:stripped_ebony_log",
-    "charmony-ebony-wood:stripped_ebony_wood"
+    "charmony:ebony_button",
+    "charmony:ebony_door",
+    "charmony:ebony_fence",
+    "charmony:ebony_fence_gate",
+    "charmony:ebony_log",
+    "charmony:ebony_planks",
+    "charmony:ebony_pressure_plate",
+    "charmony:ebony_sign",
+    "charmony:ebony_slab",
+    "charmony:ebony_stairs",
+    "charmony:ebony_trapdoor",
+    "charmony:ebony_wood",
+    "charmony:stripped_ebony_log",
+    "charmony:stripped_ebony_wood"
   ]
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "top": "charmony-ebony-wood:block/ebony_door_top",
-    "bottom": "charmony-ebony-wood:block/ebony_door_bottom"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "charmony-ebony-wood:block/ebony_planks",
-    "top": "charmony-ebony-wood:block/ebony_planks",
-    "side": "charmony-ebony-wood:block/ebony_planks"
-  }
-}

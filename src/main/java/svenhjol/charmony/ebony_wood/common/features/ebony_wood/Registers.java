@@ -14,13 +14,13 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
+import svenhjol.charmony.core.Charmony;
 import svenhjol.charmony.core.base.Setup;
 import svenhjol.charmony.core.common.CommonRegistry;
 import svenhjol.charmony.core.common.GenericTrades;
 import svenhjol.charmony.core.common.features.wood.WoodMaterial;
 import svenhjol.charmony.core.common.features.wood.WoodRegistry;
 import svenhjol.charmony.core.common.features.wood.types.*;
-import svenhjol.charmony.ebony_wood.EbonyWoodMod;
 
 import java.util.function.Supplier;
 
@@ -45,7 +45,7 @@ public class Registers extends Setup<EbonyWood> {
         material = () -> EbonyWoodMaterial.EBONY;
         blockSetType = commonRegistry.blockSetType(material);
         woodType = commonRegistry.woodType("ebony", blockSetType);
-        treeFeature = ResourceKey.create(Registries.CONFIGURED_FEATURE, EbonyWoodMod.id("ebony_tree"));
+        treeFeature = ResourceKey.create(Registries.CONFIGURED_FEATURE, Charmony.id("ebony_tree"));
 
         var ebony = material.get();
 

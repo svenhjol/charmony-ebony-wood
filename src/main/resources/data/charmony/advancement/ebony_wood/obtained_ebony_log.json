@@ -1,0 +1,35 @@
+{
+  "parent": "charmony:root",
+  "display": {
+    "icon": {
+      "id": "charmony:ebony_planks"
+    },
+    "title": {
+      "translate": "advancements.charmony.obtained_ebony_log.title"
+    },
+    "description": {
+      "translate": "advancements.charmony.obtained_ebony_log.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_ebony_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["charmony:ebony_log"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtained_ebony_log"
+    ]
+  ]
+}

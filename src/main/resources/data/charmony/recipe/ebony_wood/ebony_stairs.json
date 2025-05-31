@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "charmony:ebony_planks"
+  },
+  "result": {
+    "count": 4,
+    "id": "charmony:ebony_stairs"
+  }
+}
