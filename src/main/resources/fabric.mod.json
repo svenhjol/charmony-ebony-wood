@@ -16,13 +16,10 @@
   "accessWidener": "charmony-ebony-wood.accesswidener",
   "entrypoints": {
     "main": [
-        "svenhjol.charmony.ebony_wood.common.CommonInitializer"
+      "svenhjol.charmony.ebony_wood.common.CommonInitializer"
     ],
     "client": [
-        "svenhjol.charmony.ebony_wood.client.ClientInitializer"
-    ],
-    "modmenu": [
-        "svenhjol.charmony.ebony_wood.integration.ModMenuPlugin"
+      "svenhjol.charmony.ebony_wood.client.ClientInitializer"
     ]
   },
 
